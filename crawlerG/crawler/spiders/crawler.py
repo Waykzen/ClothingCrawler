@@ -36,7 +36,8 @@ class LinkSpider(CrawlSpider):
                         r'.*[\?&]pmin.*',
                         r'.*[\?&]pmax.*',
                         r'.*[\?&]searchColorID.*',
-                        r'.*[\?&]size.*'
+                        r'.*[\?&]size.*',
+                        r'.*[\?&]sort.*'
                     ]  
                 ), 
                 callback='parse_item', 
